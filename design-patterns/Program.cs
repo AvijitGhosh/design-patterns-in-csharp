@@ -1,9 +1,9 @@
-﻿using CreationalDesignPattern.AbstractFactoryDesignPattern;
-using CreationalDesignPattern.AbstractFactoryDesignPattern.Interface;
-using FactoryDesignPattern = CreationalDesignPattern.FactoryDesignPattern;
-using FactoryDesignPatternInterface = CreationalDesignPattern.FactoryDesignPattern.Interface;
-using FactoryMethodDesignPattern = CreationalDesignPattern.FactoryMethodDesignPattern;
-using FactoryMethodDesignPatternInterface = CreationalDesignPattern.FactoryMethodDesignPattern.Interface;
+﻿using CreationalDesignPattern.Factory.AbstractFactoryDesignPattern;
+using CreationalDesignPattern.Factory.AbstractFactoryDesignPattern.Interface;
+using FactoryDesignPattern = CreationalDesignPattern.Factory.FactoryDesignPattern;
+using FactoryDesignPatternInterface = CreationalDesignPattern.Factory.FactoryDesignPattern.Interface;
+using FactoryMethodDesignPattern = CreationalDesignPattern.Factory.FactoryMethodDesignPattern;
+using FactoryMethodDesignPatternInterface = CreationalDesignPattern.Factory.FactoryMethodDesignPattern.Interface;
 
 #region Factory Design Pattern
 FactoryDesignPatternInterface.ICreditCard creditCard1 = FactoryDesignPattern.CardFactory.GetCreditCard("Platinum");

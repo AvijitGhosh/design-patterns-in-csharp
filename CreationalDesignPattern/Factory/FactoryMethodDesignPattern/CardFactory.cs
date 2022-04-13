@@ -1,6 +1,6 @@
-﻿using CreationalDesignPattern.FactoryMethodDesignPattern.Interface;
+﻿using CreationalDesignPattern.Factory.FactoryMethodDesignPattern.Interface;
 
-namespace CreationalDesignPattern.FactoryMethodDesignPattern
+namespace CreationalDesignPattern.Factory.FactoryMethodDesignPattern
 {
     public abstract class CardFactory
     {

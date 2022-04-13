@@ -1,7 +1,7 @@
-﻿using CreationalDesignPattern.FactoryMethodDesignPattern.Implements;
-using CreationalDesignPattern.FactoryMethodDesignPattern.Interface;
+﻿using CreationalDesignPattern.Factory.FactoryMethodDesignPattern.Implements;
+using CreationalDesignPattern.Factory.FactoryMethodDesignPattern.Interface;
 
-namespace CreationalDesignPattern.FactoryMethodDesignPattern
+namespace CreationalDesignPattern.Factory.FactoryMethodDesignPattern
 {
     public class MoneyBackFactory : CardFactory
     {

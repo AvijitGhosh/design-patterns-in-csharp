@@ -1,7 +1,7 @@
-﻿using CreationalDesignPattern.FactoryDesignPattern.Implements;
-using CreationalDesignPattern.FactoryDesignPattern.Interface;
+﻿using CreationalDesignPattern.Factory.FactoryDesignPattern.Implements;
+using CreationalDesignPattern.Factory.FactoryDesignPattern.Interface;
 
-namespace CreationalDesignPattern.FactoryDesignPattern
+namespace CreationalDesignPattern.Factory.FactoryDesignPattern
 {
     public static class CardFactory
     {

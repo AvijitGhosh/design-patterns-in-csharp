@@ -1,7 +1,7 @@
-﻿using CreationalDesignPattern.AbstractFactoryDesignPattern.Implements;
-using CreationalDesignPattern.AbstractFactoryDesignPattern.Interface;
+﻿using CreationalDesignPattern.Factory.AbstractFactoryDesignPattern.Implements;
+using CreationalDesignPattern.Factory.AbstractFactoryDesignPattern.Interface;
 
-namespace CreationalDesignPattern.AbstractFactoryDesignPattern
+namespace CreationalDesignPattern.Factory.AbstractFactoryDesignPattern
 {
     public class LandAnimalFactory : AnimalFactory
     {

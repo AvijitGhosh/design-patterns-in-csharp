@@ -1,6 +1,6 @@
-﻿using CreationalDesignPattern.AbstractFactoryDesignPattern.Interface;
+﻿using CreationalDesignPattern.Factory.AbstractFactoryDesignPattern.Interface;
 
-namespace CreationalDesignPattern.AbstractFactoryDesignPattern
+namespace CreationalDesignPattern.Factory.AbstractFactoryDesignPattern
 {
     public abstract class AnimalFactory
     {

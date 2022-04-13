@@ -1,6 +1,6 @@
-﻿using CreationalDesignPattern.FactoryMethodDesignPattern.Interface;
+﻿using CreationalDesignPattern.Factory.FactoryMethodDesignPattern.Interface;
 
-namespace CreationalDesignPattern.FactoryMethodDesignPattern.Implements
+namespace CreationalDesignPattern.Factory.FactoryMethodDesignPattern.Implements
 {
     public class Platinum : ICreditCard
     {

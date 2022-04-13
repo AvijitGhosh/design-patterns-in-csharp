@@ -1,4 +1,4 @@
-﻿namespace CreationalDesignPattern.FactoryMethodDesignPattern.Interface
+﻿namespace CreationalDesignPattern.Factory.FactoryDesignPattern.Interface
 {
     public interface ICreditCard
     {
