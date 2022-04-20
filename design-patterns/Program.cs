@@ -4,6 +4,7 @@ using CreationalDesignPattern.Builder.BuilderDesignPattern.EX2;
 using CreationalDesignPattern.Builder.BuilderDesignPattern.EX2.ConcreteBuilder;
 using CreationalDesignPattern.Factory.AbstractFactoryDesignPattern;
 using CreationalDesignPattern.Factory.AbstractFactoryDesignPattern.Interface;
+using CreationalDesignPattern.Fluent.FluentInterfaceDesignPattern;
 using FactoryDesignPattern = CreationalDesignPattern.Factory.FactoryDesignPattern;
 using FactoryDesignPatternInterface = CreationalDesignPattern.Factory.FactoryDesignPattern.Interface;
 using FactoryMethodDesignPattern = CreationalDesignPattern.Factory.FactoryMethodDesignPattern;
@@ -55,5 +56,17 @@ BeverageDirector beverageDirector = new BeverageDirector();
 CoffeeBeverage coffeeBeverage = new CoffeeBeverage();
 Beverage beverage = beverageDirector.MakeBeverage(coffeeBeverage);
 Console.WriteLine(beverage.ShowBeverage());
+Console.WriteLine();
+#endregion
+
+
+
+#region Fluent Interface Design Pattern
+FluentEmployee employee = new FluentEmployee();
+var data = employee.EmployeeId(1).EmployeeName("EmployeeName").EmployeeEmail("EmployeeEmail").EmployeeSalary(750);
+Console.WriteLine("Employee ID : {0}");
+Console.WriteLine("Employee Name : {0}");
+Console.WriteLine("Employee Email : {0}");
+Console.WriteLine("Employee Salary : {0}");
 Console.WriteLine();
 #endregion
